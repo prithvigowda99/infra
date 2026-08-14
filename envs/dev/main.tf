@@ -1,5 +1,5 @@
 # ZenPharma Dev Environment — managed via GitHub Actions for CICD 
-# account_id= 098688552844..
+# account_id= 098688552844...
 locals {
   project = "pharma"
   env     = "dev"
