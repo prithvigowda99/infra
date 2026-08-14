@@ -27,7 +27,7 @@ variable "github_repo_ids" {
   type        = map(string)
   default = {
     "zen-pharma-frontend"     = "1316902357"
-    "zen-pharma-backend"      = "1313639344"
+    "zen-pharma-backend"      = "1334241418"
    
   }
 }
