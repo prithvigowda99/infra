@@ -28,6 +28,7 @@ variable "github_repo_ids" {
   default = {
     "zen-pharma-frontend"     = "1316902357"
     "zen-pharma-backend"      = "1334241418"
+    "infra" = "1330909007"
    
   }
 }
