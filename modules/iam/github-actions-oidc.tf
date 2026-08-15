@@ -38,7 +38,7 @@ locals {
   # formats are listed so this keeps working whenever DPP-2026 does opt in.
   github_oidc_subs = flatten([
     for repo_name, repo_id in var.github_repo_ids : flatten([
-      for branch in ["main", "develop"] : [
+      for branch in ["main", "develop", "feature/initial-setup"] : [
         "repo:${var.github_org}@${var.github_org_id}/${repo_name}@${repo_id}:ref:refs/heads/${branch}",
         "repo:${var.github_org}/${repo_name}:ref:refs/heads/${branch}",
       ]
